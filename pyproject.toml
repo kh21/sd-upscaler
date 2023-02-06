@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "upscaling"
+version = "0.1.0"
+description = ""
+authors = ["kh21 <kh21.1982@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pillow = "^9.4.0"
+ftfy = "^6.1.1"
+einops = "^0.6.0"
+braceexpand = "^0.1.7"
+requests = "^2.28.2"
+transformers = "^4.26.0"
+clip = "^0.2.0"
+omegaconf = "^2.3.0"
+pytorch-lightning = "^1.9.0"
+kornia = "^0.6.9"
+k-diffusion = "^0.0.12"
+huggingface-hub = {git = "https://github.com/huggingface/huggingface_hub"}
+black = "^23.1.0"
+pylint = "^2.16.1"
+isort = "^5.12.0"
+absl-py = "^1.4.0"
+diffusers = {extras = ["torch"], version = "^0.12.1"}
+numba = "^0.56.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

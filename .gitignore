@@ -1,0 +1,9 @@
+__pycache__/
+.vscode/
+.venv/
+cache/
+latent-diffusion/
+stable-diffusion/
+taming/
+taming-transformers/
+tmp/
